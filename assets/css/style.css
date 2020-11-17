@@ -1,49 +1,102 @@
 body {
-    background-color: rgb(240, 235, 226);
+    background-color: #EDE8DE;
     color: #383838;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
-    padding: 50px;
+    padding-top: 20px;
     margin: auto;
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 80%;
+}
+
+.my-name {
+    font-family: new-spirit, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: #054D47;
+    text-align: right;
+    text-decoration: none;
+}
+
+.wicker {
+    font-weight: 600;
+}
+
+.my-name:hover {
+    color: teal;
 }
 
 .container {
-    background-color: rgb(228, 218, 199);
-    width: 70%;
+    width: 90%;
     margin: auto;
-    padding: 40px;
-    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 h1 {
-    font-family: rig-shaded-bold-face, sans-serif;
-    font-weight: 700;   
+    font-family: synthemesc, sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 60px;
-    color: indianred;
-    margin-bottom: 10px;
+    font-size: 150px;
+    color:#B25660;
+    margin-top: 100px;
+}
+
+h1:hover {
+    color: teal;
 }
 
 h2 {
     font-family: new-spirit, sans-serif;
+    font-weight: 600;  
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #856496;
+}
+
+h3 {
+    font-family: new-spirit, sans-serif;
     font-weight: 400;  
     font-style: normal;
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 24px;
+    color: #487677;
+    margin-bottom: 20px;
 }
 
 p {
     line-height: 1.5;
-    max-width: 600px;
     margin: auto;
     margin-bottom: 15px;
 }
 
+.hero {
+    text-align: left;
+    padding-bottom: 180px;
+    min-height: 50vh;
+}
+
+.bio-section {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
 .fish {
-    width: 400px;
-    margin: 40px 0;
+    width: 500px;
+    margin: auto;
+}
+
+.fish-text {
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: 40px;
 }
